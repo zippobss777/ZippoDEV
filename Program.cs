@@ -5,6 +5,7 @@ using System.Text.Json;
 // dostępność stron www
 using System.Diagnostics;
 using System.Threading;
+using System.Diagnostics.Contracts;
 
 namespace ZippoDEV
 {
@@ -68,6 +69,10 @@ namespace ZippoDEV
                 switch (wybor)
                 {
                     case "1":
+                        oMnie();
+                        break;
+
+                    case "1.1":
                         oMnie();
                         break;
 
