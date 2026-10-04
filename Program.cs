@@ -78,6 +78,33 @@ namespace ZippoDEV
                     case "3":
                         Linki();
                         break;
+
+                    default:
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.WriteLine("┌-------------------------------------------------┐");
+                        Console.Write("|                    ");
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
+                        Console.Write("ZippoDEV");
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.WriteLine("                     |");
+                        Console.WriteLine("└-------------------------------------------------┘");
+
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.WriteLine("┌-------------------------------------------------┐");
+                        Console.Write("| ");
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.Write("OPCJA JEST OBECNIE NIEDOSTĘPNA!");
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.WriteLine("                 |");
+                        Console.WriteLine("└-------------------------------------------------┘");
+
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+
+                        Console.Write("\n Kliknij dowolny klawisz, by powrócić do menu.");
+                        Console.ReadKey();
+
+                        Console.Clear();
+                        break;
                 }
             }
         }
@@ -271,11 +298,47 @@ namespace ZippoDEV
 
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine("┌-------------------------------------------------┐");
+
             Console.Write("| ");
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.Write("OPCJA JEST OBECNIE NIEDOSTĘPNA!");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.Write("TikTok");
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("                 |");
+            Console.Write(" - ");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.Write("https://tiktok.com/@zippobss");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("           |");
+
+            Console.Write("| ");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write("GitHub");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.Write(" - ");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write("https://github.com/zippobss777");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("         |");
+
+            Console.Write("| ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Discord");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.Write(" - ");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("https://dc.gg/zippodev");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("                |");
+
+            Console.Write("| ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("Strona WWW");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.Write(" - ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("http://zippodev.netlify.app");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("        |");
+
             Console.WriteLine("└-------------------------------------------------┘");
 
             Console.ForegroundColor = ConsoleColor.DarkGray;

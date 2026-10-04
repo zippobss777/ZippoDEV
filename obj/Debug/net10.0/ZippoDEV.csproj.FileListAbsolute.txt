@@ -13,3 +13,4 @@ C:\Users\huber\Desktop\Visual Studio - Programy\ZippoDEV\obj\Debug\net10.0\Zippo
 C:\Users\huber\Desktop\Visual Studio - Programy\ZippoDEV\obj\Debug\net10.0\ZippoDEV.genruntimeconfig.cache
 C:\Users\huber\Desktop\Visual Studio - Programy\ZippoDEV\obj\Debug\net10.0\ref\ZippoDEV.dll
 C:\Users\huber\Desktop\Visual Studio - Programy\ZippoDEV\obj\Debug\net10.0\ZippoDEV.csproj.Up2Date
+C:\Users\huber\Desktop\Visual Studio - Programy\ZippoDEV\obj\Debug\net10.0\ZippoDEV.sourcelink.json
